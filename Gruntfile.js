@@ -43,7 +43,7 @@ module.exports = function(grunt) {
                 files: [
                     {
                         expand: true,
-                        flattend: true,
+                        flatten: true,
                         src: ['src/index.html'],
                         dest: 'dev/'
                     }
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
                 files: [
                     {
                         expand: true,
-                        flattend: true,
+                        flatten: true,
                         src: ['prebuild/index.html'],
                         dest: 'dist/' 
                     }
